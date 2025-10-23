@@ -27,12 +27,12 @@ jobs:
       - name: Run Prettier check
         run: |
             echo "Running Prettier to check for formatting issues..."
-            npm run prettier:check
+          npm run prettier:check
 
       - name: Run ESLint check
         run: |
             echo "Running ESLint to check for linting issues..."
-            npm run lint 
+          npm run lint 
 
       - name: Run TypeScript compile check
         run: |
@@ -41,7 +41,7 @@ jobs:
 
       - name: Run Playwright API tests
         env:
-          USER: ${{ secrets.USER }}
+          USERNAME: ${{ secrets.USERNAME }}
           PASSWORD: ${{ secrets.PASSWORD }}
         run: |
           echo "Running Playwright to execute API tests..."
