@@ -1,5 +1,5 @@
 import { expect, test } from '@playwright/test'
-import { ApiClient } from '../src/ApiClient'
+import { ApiClient} from '../src/ApiClient';
 
 test('login and create order with api client', async ({ request }) => {
   const apiClient = await ApiClient.create(request)

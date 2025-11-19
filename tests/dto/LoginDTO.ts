@@ -8,11 +8,11 @@ export class LoginDTO {
   }
 
   static createLoginWithCorrectData(): LoginDTO {
-    return new LoginDTO(process.env.USERNAME || "andreikrm", process.env.PASSWORD || "ztd4sqbYbfT2n");
+    return new LoginDTO(process.env.USERNAME || "maksim", process.env.PASSWORD || "maksim2");
 
   }
 
   static createLoginWithBrokenData(): LoginDTO {
-    return new LoginDTO("", "");
+    return new LoginDTO("maksim", "maksim2");
   }
 }
