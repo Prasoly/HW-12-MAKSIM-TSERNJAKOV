@@ -17,6 +17,7 @@ export default defineConfig({
   projects: [
     {
       name: 'API tests'
+
     },
   ],
 });
