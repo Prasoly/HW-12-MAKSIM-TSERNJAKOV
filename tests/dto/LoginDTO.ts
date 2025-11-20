@@ -3,12 +3,12 @@ export class LoginDTO {
   private readonly password: string
 
   constructor(username: string, password: string) {
-    this.username = username
-    this.password = password
+    this.username = username;
+    this.password = password;
   }
 
   static createLoginWithCorrectData(): LoginDTO {
-    return new LoginDTO(process.env.USER || '', process.env.PASSWORD || '')
+    return new LoginDTO(process.env.USERNAME || '', process.env.PASSWORD || '')
   }
 
   static createLoginWithBrokenData(): LoginDTO {
