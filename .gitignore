@@ -5,3 +5,12 @@ node_modules/
 /playwright/.cache/
 .idea
 .idea/**
+/.env
+/env*
+.env
+/.env
+/env*
+/.env*
+*/*.env
+
+*/.env
