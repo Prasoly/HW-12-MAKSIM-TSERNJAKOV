@@ -31,7 +31,7 @@ jobs:
 
       - name: Run ESLint check
         run: |
-            echo "Running ESLint to check for linting issues..."
+          echo "Running ESLint to check for linting issues..."
           npm run lint 
 
       - name: Run TypeScript compile check
