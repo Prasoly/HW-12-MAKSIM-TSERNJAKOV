@@ -26,7 +26,7 @@ jobs:
 
       - name: Run Prettier check
         run: |
-            echo "Running Prettier to check for formatting issues..."
+          echo "Running Prettier to check for formatting issues..."
           npm run prettier:check
 
       - name: Run ESLint check
